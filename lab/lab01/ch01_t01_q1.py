@@ -3,7 +3,7 @@ def main():
 			try:
 			    nam = int(input(“Type an integer:”))
 			    break
-			except ValueError:
+			    except ValueError:
 			print(‘Please enter an integer.’)
 	if num % 10 == 0 and num % 3 != 0:
 	print(f’{num} is divisible by 10 and not divisible by 3’)
