@@ -1,6 +1,6 @@
 def main():
     while True:
-		try:
+        try:
 			num = int(input("Type an integer:"))
 			break
 		except ValueError:
