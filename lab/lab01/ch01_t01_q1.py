@@ -1,7 +1,7 @@
 def main():
     while True:
 			try:
-			nam = int(input(“Type an integer:”))
+			    nam = int(input(“Type an integer:”))
 			break
 			except ValueError:
 			print(‘Please enter an integer.’)
