@@ -2,7 +2,7 @@ def main():
     while True:
 			try:
 			    nam = int(input(“Type an integer:”))
-			break
+			    break
 			except ValueError:
 			print(‘Please enter an integer.’)
 	if num % 10 == 0 and num % 3 != 0:
