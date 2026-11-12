@@ -1,5 +1,5 @@
 def main():
-    While True:
+    while True:
 			Try:
 			Nam = int(input(“Type an integer:”))
 			Break
